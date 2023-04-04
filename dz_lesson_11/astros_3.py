@@ -1,6 +1,6 @@
 # Вивезти всіх космонавтів(кількість і імена) http://api.open-notify.org/astros.json
-
 import requests
+
 my_list = []
 astros = requests.get('http://api.open-notify.org/astros.json')
 for obj in astros.json()['people']:
