@@ -1,0 +1,1 @@
+# Create a program that will ask user to search a word. Search this word in Giphy (use their API). Return links to these GIFs as a result
